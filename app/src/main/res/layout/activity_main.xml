@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abdurrahimi.zeinbelajar2.MainActivity">
+
+
+    <CheckBox
+        android:id="@+id/cbP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checkone"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Programmner" />
+
+    <CheckBox
+        android:id="@+id/cbNA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checktwo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Network Administrator" />
+
+    <CheckBox
+        android:id="@+id/cbSA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checkthree"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:text="System Analyse" />
+    <CheckBox
+        android:id="@+id/cbDD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checkfour"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"
+        android:text="Database Developers" />
+    <CheckBox
+        android:id="@+id/cbSD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checkfive"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp"
+        android:text="Software Developers" />
+    <TextView
+        android:id="@+id/tvF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:textSize="20dp"
+        android:text="Pilihan yang Kamu Pilih" />
+    <TextView
+        android:id="@+id/ttvP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:text="Pilihan 1 :  " />
+    <TextView
+        android:id="@+id/tvP1"
+        android:onClick="checkone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ttvP1"
+        android:layout_marginTop="230dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/ttvP2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:text="Pilihan 2 :  " />
+    <TextView
+        android:id="@+id/tvP2"
+        android:onClick="checkone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ttvP1"
+        android:layout_marginTop="260dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/ttvP3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="290dp"
+        android:text="Pilihan 3 :  " />
+    <TextView
+        android:id="@+id/tvP3"
+        android:onClick="checkone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ttvP1"
+        android:layout_marginTop="290dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/ttvP4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="320dp"
+        android:text="Pilihan 4 :  " />
+    <TextView
+        android:id="@+id/tvP4"
+        android:onClick="checkone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ttvP1"
+        android:layout_marginTop="320dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/ttvP5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:text="Pilihan 5 :  " />
+    <TextView
+        android:id="@+id/tvP5"
+        android:onClick="checkone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ttvP1"
+        android:layout_marginTop="350dp"
+        android:text="" />
+
+</RelativeLayout>
